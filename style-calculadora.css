@@ -1,0 +1,112 @@
+header{
+    background-color: darkred;
+    padding: 20px 0;
+}
+
+.cabecalho{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 120px;
+    height: 128px;
+}
+
+nav{
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin-left: 45px;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: darkgoldenrod
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.caixa{
+    display: inline-block;
+    background-color: gray;
+    margin:30px;
+    width: 45%;
+    height: 300px;
+    border: solid black 5px;
+    border-radius: 20px;
+}
+
+.caixa-menor{
+    padding: 30px;
+}
+
+.caixinha1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.caixinha2{
+    border: solid black 2px;
+    border-radius: 20px;
+    color: black;
+    background-color: #c6cbcf;
+    text-align: center;
+    width: 100px;
+    font-size: 20px;
+}
+
+#botao{
+    color: black;
+    background-color: red;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: solid black 3px;
+    border-radius: 25px;
+    width: 200px;
+}
+
+#botao:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#botao:active{
+    background-color: darkgreen;
+    transition: 0s;
+}
+
+.resultado-maior{
+    background-color: #c6cbcf;
+    padding: 30px;
+    margin: 30px;
+    border: solid black 2px;
+    border-radius: 25px;
+    font-size: 30px;
+}
+
+footer{
+    padding: 20px;
+    background-color: rgb(44, 42, 42);
+    text-align: center;
+    color: white;
+}
