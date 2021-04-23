@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Atributos</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-calculadora.css">
+    <script src="calculadora.js"></script>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <a href="Home.html"><img src="logo.png" alt="logo-d20" class="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="Formulário de Ficha 5ºe.html">Formulário de Ficha</a></li>
+                    <li><a href="">Calculadora de Atributos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="caixa">
+            <fieldset class="caixa-menor">
+                <label for="valor-de-atributo" class="caixinha1">Valor de Atributo:</label>
+                <input type="number" id="valor-de-atributo" class="caixinha2" required>
+            </fieldset>
+
+            <button id="botao" onclick="calcular()">Calcular</button>
+
+            <div class="resultado-maior">
+                <p id="resultado-menor">...</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <img src="logo preta.png" alt="logo-preta" class="logo">
+        <p> &#9416;alesproductions</p>
+</footer>
+</body>
+</html>
