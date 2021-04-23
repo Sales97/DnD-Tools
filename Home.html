@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-home.css">
+    <script src="texto-dinamico.js"></script>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <a href="Home.html"><img src="logo.png" alt="logo-d20" class="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="Formulário de Ficha 5ºe.html">Formulário de Ficha</a></li>
+                    <li><a href="Calculadora de Atributos.html">Calculadora de Atributos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+            <p>Dungeons & Dragons (abreviado como D&D ou DnD) é um RPG de alta fantasia desenvolvido originalmente por Gary Gygax e Dave Arneson, onde jogadores criam personagens que embarcam em aventuras imaginárias em que eles enfrentam monstros, reúnem tesouros, interagem entre si e ganham pontos de experiência para se tornarem incrivelmente poderosos à medida que o jogo avança.</p>
+            <p>Para a criação de personagem, os jogadores tem uma vasta gama de opções, tendo que escolher entre diversas classes, raças, armas, etc. Para ajudar a facilitar, abaixo vai algumas informações de cada Classe e Raça.</p>
+
+            <div class="texto-interativo">
+                <label for="classes">Classe:</label>
+                <select name="classes-select" id="classes-select" onchange="mudar1()">
+                    <option value="Barbaro-option" selected>Bárbaro</option>
+                    <option value="Bardo-option">Bardo</option>
+                    <option value="Bruxo-option">Bruxo</option>
+                    <option value="Clerigo-option">Clérigo</option>
+                    <option value="Druida-option">Druida</option>
+                    <option value="Feiticeiro-option">Feiticeiro</option>
+                    <option value="Guerreiro-option">Guerreiro</option>
+                    <option value="Ladino-option">Ladino</option>
+                    <option value="Mago-option">Mago</option>
+                    <option value="Monge-option">Monge</option>
+                    <option value="Paladino-option">Paladino</option>
+                    <option value="Patrulheiro-option">Patrulheiro</option>
+                </select>
+
+                <p id="texto-para-mudar">...</p>
+                <p>Dado de Vida: <b id="dado">...</b></p>
+                <p>Proficiência em Resistência: <b id="resistencia">...</b></p>
+                <p>Proficiêcnias em Armas e Armaduras: <b id="proficiencias">...</b></p>
+            </div>
+
+            <div class="texto-interativo">
+                <label for="classes">Raça:</label>
+                <select name="racas-select" id="racas-select" onchange="mudar2()">
+                    <option value="Anao-option" selected>Anão</option>
+                    <option value="Elfo-option">Elfo</option>
+                    <option value="Humano-option">Humano</option>
+                    <option value="Halfling-option">Halfling</option>
+                    <option value="Draconato-option">Draconato</option>
+                    <option value="Gnomo-option">Gnomo</option>
+                    <option value="Meio-elfo-option">Meio-elfo</option>
+                    <option value="Meio-orc-option">Meio-orc</option>
+                    <option value="Tiefling-option">Tiefling</option>
+                </select>
+
+                <p id="texto-para-mudar2">...</p>
+            </div>
+    </main>
+
+    <footer>
+        <img src="logo preta.png" alt="logo-preta" class="logo">
+        <p> &#9416;alesproductions</p>
+</footer>
+</body>
+</html>
