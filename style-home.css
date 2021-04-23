@@ -1,0 +1,75 @@
+header{
+    background-color: darkred;
+    padding: 20px 0;
+}
+
+.cabecalho{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 120px;
+    height: 128px;
+}
+
+nav{
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin-left: 45px;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: darkgoldenrod
+}
+
+main{
+    padding: 25px;
+    width: 940px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+select{
+    border-radius: 15px;
+    background-color: #c6cbcf;
+}
+
+.texto-interativo{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    border: solid black 2px;
+    border-radius: 15px;
+    background-color: gray;
+    text-align: center;
+}
+
+#texto-para-mudar, #texto-para-mudar2{
+    margin: 10px;
+    font-weight: bold;
+}
+
+#dado, #resistencia, #proficiencias{
+    font-weight: bold;
+}
+
+footer{
+    padding: 20px;
+    background-color: rgb(44, 42, 42);
+    text-align: center;
+    color: white;
+}
