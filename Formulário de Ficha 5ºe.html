@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário: Ficha 5ºe</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-formulario.css">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <a href="Home.html"><img src="logo.png" alt="logo-d20" class="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="Formulário de Ficha 5ºe.html">Formulário de Ficha</a></li>
+                    <li><a href="Calculadora de Atributos.html">Calculadora de Atributos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <form>
+            <label for="nome-do-personagem">Nome do Personagem</label>
+            <input type="text" id="nome-do-personagem" required>
+
+            <fieldset class="escolha-x">
+                <legend>Qual Raça você deseja?</legend>
+                <select name="raca" id="raca">
+                    <option value="anao-da-colina">Anão da Colina</option>
+                    <option value="anao-da-montanha">Anão da Montanha</option>
+                    <option value="elfo-da-floresta">Elfo da Floresta</option>
+                    <option value="alto-elfo">Alto Elfo</option>
+                    <option value="elfo-negro">Elfo Negro</option>
+                    <option value="humano">Humano</option>
+                    <option value="halfling">Halfling</option>
+                    <option value="draconato">Draconato</option>
+                    <option value="gnomo">Gnomo</option>
+                    <option value="meio-elfo">Meio-Elfo</option>
+                    <option value="meio-orc">Meio-Orc</option>
+                    <option value="tiefling">Tiefling</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="escolha-x">
+                <legend>Qual Classe você deseja?</legend>
+                <select name="classe" id="classe">
+                    <option value="barbaro">Bárbaro</option>
+                    <option value="bardo">Bardo</option>
+                    <option value="bruxo">Bruxo</option>
+                    <option value="clerigo">Clérigo</option>
+                    <option value="druida">Druida</option>
+                    <option value="feiticeiro">Feiticeiro</option>
+                    <option value="patrulheiro">Patrulheiro</option>
+                    <option value="guerreiro">Guerreiro</option>
+                    <option value="ladino">Ladino</option>
+                    <option value="mago">Mago</option>
+                    <option value="monge">Monge</option>
+                    <option value="paladino">Paladino</option>
+                </select>
+            </fieldset>
+
+            <label for="antecedente">Antecedente</label>
+            <input type="text" required>
+
+            <label for="historia-do-personagem">História do Personagem</label>
+            <textarea name="historia-do-personagem" id="historia-do-personagem" cols="30" rows="10" placeholder="(opcional)"></textarea>
+
+            <label for="email">Email para Envio das Informações</label>
+            <input type="email" required>
+
+            <input type="submit" value="Enviar Informações da Ficha" id="botao-de-envio">
+        </form>
+    </main>
+
+    <footer>
+            <img src="logo preta.png" alt="logo-preta" class="logo">
+            <p> &#9416;alesproductions</p>
+    </footer>
+</body>
+</html>
