@@ -24,13 +24,15 @@
     </header>
 
     <main>
+        <p>Muito do que o personagem faz no jogo depende de suas seis habilidades: Força, Destreza, Constituição Inteligência, Sabedoria e Carisma. Cada habilidade possui um valor que deve ser anotado na sua ficha de personagem. Depois de atribuir os valores de habilidade, você deve determinar seus modificadores de habilidade usando a tabela Valores e Modificadores de Habilidade ou a calculadora de habilidades abaixo.</p>
+
         <div class="caixa">
             <fieldset class="caixa-menor">
-                <label for="valor-de-atributo" class="caixinha1">Valor de Atributo:</label>
+                <label for="valor-de-atributo" class="caixinha1">Valor de Habilidade:</label>
                 <input type="number" id="valor-de-atributo" class="caixinha2" required>
             </fieldset>
 
-            <button id="botao" onclick="calcular()">Calcular</button>
+            <button id="botao" onclick="calcular()">Calcular Modificador</button>
 
             <div class="resultado-maior">
                 <p id="resultado-menor">...</p>
